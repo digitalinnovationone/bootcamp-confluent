@@ -1,0 +1,36 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.venv/
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+*.tfstate*
+.terraform/
+
+# PyCharm: as run configurations em .run/ SÃO versionadas (fazem parte do material)
+.idea/
+
+# Gravações e mídia pesada — nunca no Git (27 GB)
+Videos/
+*.mp4
+*.mov
+*.mkv
+*.wav
+
+
+# Configs de conector gerados pelos próprios guias ao rodar (cat > x.json na raiz do repo)
+/datagen.json
+/pg-cdc.json
+/sink.json
+/sink-cdc.json
+/flat-cdc.json
+
+# Configuração local do Claude Code — não versionada
+.claude/
+
+# Fontes editáveis — só local
+*.pptx
